@@ -21,8 +21,7 @@ public class Main {
             System.out.println("3.-Postorden");
             System.out.println("4.Insertar nodo");
             System.out.println("5.Eliminar nodo");
-            System.out.println("6.Buscar nodo");
-            System.out.println("7.Salir de la aplicacion");
+            System.out.println("6.Salir de la aplicacion");
             opcion=sc.nextInt();
             switch (opcion) {
                 case 1:
@@ -45,13 +44,8 @@ public class Main {
                     arbol.eliminar(arbol.getRoot(),valor);
 
                     break;
+
                 case 6:
-                    System.out.println("Introduce el valor a buscar");
-                    valor=sc.nextInt();
-
-                    break;
-
-                case 7:
                     System.out.println("Saliendo de la aplicacion");
                     break;
                 default:
@@ -59,7 +53,7 @@ public class Main {
                     break;
             }
 
-        }while (opcion!=7&& opcion<7);
+        }while (opcion<6);
 
     }
     }
