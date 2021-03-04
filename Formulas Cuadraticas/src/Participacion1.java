@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 public class Participacion1 {
-    //Julia Ramos Lopez
+    
     public static void main(String[] args) {
         //Iniciacion de las variables
         String[] arreglo = new String[3];
